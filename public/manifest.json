@@ -1,0 +1,28 @@
+
+{
+    "name": "ISPKABOL",
+    "short_name": "ISPAKBOL",
+    "description": "Aplikasi Informsai Sepak Bola",
+    "start_url": "/index.html",
+    "display": "standalone",
+    "background_color": "#00897B",
+    "theme_color": "#00897B",
+    "icons": [
+        {
+            "src": "icon512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        },
+        {
+            "src": "icon192.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+
+    ],
+
+    
+    "gcm_sender_id": "126412035648"
+  
+}
+
