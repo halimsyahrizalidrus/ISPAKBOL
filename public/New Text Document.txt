@@ -1,4 +1,0 @@
-{
-"publicKey":"BMsxnomRkfaSjXjqr3MzD90v2Nvc0MWNn1enhrfzmqpnuKsTXkN7jhcI8qZw0cLwjfL4NklU3qmvgAYsG6HHt54",
-"privateKey":"Qk4vRHKnSSE28PA3K2-PSE6-nalJzED5JpDyZVX8C5A"
-}
