@@ -31,35 +31,9 @@ workbox.routing.registerRoute(
 
 workbox.routing.registerRoute(
   new RegExp('https://api.football-data.org/v2/'),
-  workbox.strategies.staleWhileRevalidate({
-    cacheName: "api-fetch-cache",
-    cacheExpiration:{
-      maxAgeSecond : 24 * 60 *60
-    }
-  })
-);
+  workbox.strategies.staleWhileRevalidate()
+)
 
-
-self.addEventListener("fetch", function (event) {
-  const base_url = "https://api.football-data.org/v2/";
-  if (event.request.url.indexOf(base_url) > -1) {
-    event.respondWith(
-      caches.open(CACHE_NAME).then(function (cache) {
-        return fetch(event.request).then(function (response) {
-          cache.put(event.request.url, response.clone());
-          return response;
-        })
-      })
-    );
-  } else {
-    event.respondWith(
-      caches.match(event.request).then(function (response) {
-        return response || fetch(event.request);
-      })
-    )
-  };
-
-});
 
 self.addEventListener('push', function (event) {
   var body;

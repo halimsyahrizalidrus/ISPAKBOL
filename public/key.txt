@@ -1,4 +1,2 @@
-{
-"publicKey":"BMsggVrUWQccM2V2w7IaCSWFYS3gkgJDUo7BSduZuzItpreRpdVxERd-hOMT7dLFIgFGludYcTf4yfIXtaNDId8",
-"privateKey":"3hZxW5a8nvfqou84ezWvGA0aeNxfz2cFt5r2rww283E"
-}
+{"publicKey":"BFLEDXTikvATR2G8g9ozq6aK6q0U9Cd70xjR8T8QeMpvvOLmPRnqFBkmRFeV7SdTCfCh-KPyOorgG4ZL0rkVzLo",
+"privateKey":"Umpol7Nx9zDxNAYexguL_R4BKyQTMwK7n6507LuS5XM"}
